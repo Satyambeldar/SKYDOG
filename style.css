@@ -195,15 +195,18 @@ h4{
 
 .section-3{
     /* background-color: red; */
-    width: 100%;
-   min-height: 100vh;
-    /* overflow-x: auto; */
+    /* width: 100%; */
+   /* min-height: 100vh; */
+    overflow-x: hidden;
     /* overflow-y: hidden; */
     /* background-color:green; */
 }
+.section-3::-webkit-scrollbar{
+    display: none;
+}
 .head{
     width: 100%;
-    height: 10%;
+    /* height: 10%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -212,10 +215,10 @@ h4{
 }
 #head-1{
     /* background-color:blue; */
-    width: 191px;
-    width: 100%;
-    height: 10vh;
-    height: 17px;
+    /* width: 191px; */
+    /* width: 100%; */
+    /* height: 10vh; */
+    /* height: 17px; */
     font-family: Gotham;
     font-size: 18px;
     font-weight: 700;
